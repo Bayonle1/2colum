@@ -1,25 +1,45 @@
 :root{
-    --black-color: greenyellow;
-    --tomato-color: skyblue;
+    --black-color: #000000;
+    --white-color: #ffffff;
+    --tomato-color: #ff6347;
+    --grey-color: #808080;
 }
 
 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
 .firstsection{
     border: 2px solid tomato;
     display: flex;
+    height: 460px;
 }
 
 .firstsection-leftdiv{
     border: 2px solid black;
     height: 460px;
     width: 50%; 
+    background: var(--white-color);
+    padding: 20px;
+}
+
+.line{
     background: var(--tomato-color);
+    height: 16px;
+    width: 224px;
+}
+
+.logotext span{
+    color: var(--tomato-color);
+
 }
 
 .firstsection-rightdiv{
     border: 2px solid purple;
     height: 460px;
     width: 50%;
-    background: var(--black-color);
+    background: var(--white-color);
 }
