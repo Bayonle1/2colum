@@ -21,7 +21,7 @@
 
 .firstsection-leftdiv{
     border: 2px solid black;
-    height: 460px;
+    height: 100%;
     width: 50%; 
     background: var(--white-color);
     padding: 20px;
@@ -47,11 +47,17 @@
 
 .firstsection-rightdiv{
     border: 2px solid purple;
-    height: 460px;
+    height: 100%;
     width: 50%;
     background: var(--tomato-linear-gradient), url(images/image1.jpg);
     background-size: cover;
     background-position: bottom left;
-    
-
+}
+.menu{
+    border: 2px;
+    display: flex;
+    justify-content: space-evenly;
+    color: var(--white-color);
+    padding: 20px;
+    text-transform: uppercase;
 }
